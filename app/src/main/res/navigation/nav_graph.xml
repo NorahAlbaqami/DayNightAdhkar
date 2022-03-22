@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.norah.albaqami.daynightadhkar.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_morningAdhkarFragment"
+            app:destination="@id/morningAdhkarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_eveningAdhkarFragment"
+            app:destination="@id/eveningAdhkarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_adhkarCollectionFragment"
+            app:destination="@id/adhkarCollectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/morningAdhkarFragment"
+        android:name="com.norah.albaqami.daynightadhkar.fragment.MorningAdhkarFragment"
+        android:label="fragment_morning_adhkar"
+        tools:layout="@layout/fragment_morning_adhkar" />
+    <fragment
+        android:id="@+id/eveningAdhkarFragment"
+        android:name="com.norah.albaqami.daynightadhkar.fragment.EveningAdhkarFragment"
+        android:label="fragment_evening_adhkar"
+        tools:layout="@layout/fragment_evening_adhkar" />
+    <fragment
+        android:id="@+id/adhkarCollectionFragment"
+        android:name="com.norah.albaqami.daynightadhkar.fragment.AdhkarCollectionFragment"
+        android:label="fragment_adhkar_collection"
+        tools:layout="@layout/fragment_adhkar_collection" />
+</navigation>
