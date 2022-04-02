@@ -5,11 +5,12 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14435695538057744" />
         <entry key="app/src/main/res/layout/adkar_card.xml" value="0.35333333333333333" />
-        <entry key="app/src/main/res/layout/collection_card.xml" value="0.35333333333333333" />
+        <entry key="app/src/main/res/layout/collection_card.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_adhkar_collection.xml" value="0.35333333333333333" />
         <entry key="app/src/main/res/layout/fragment_evening_adhkar.xml" value="0.35333333333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14435695538057744" />
         <entry key="app/src/main/res/layout/fragment_morning_adhkar.xml" value="0.35333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_sleep.xml" value="0.35333333333333333" />
       </map>
     </option>
   </component>
@@ -18,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.35333333333333333" />
+      </ProjectState>
+    </option>
   </component>
 </project>

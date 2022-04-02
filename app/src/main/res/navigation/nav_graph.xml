@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment_to_adhkarCollectionFragment"
             app:destination="@id/adhkarCollectionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sleepFragment"
+            app:destination="@id/sleepFragment" />
     </fragment>
     <fragment
         android:id="@+id/morningAdhkarFragment"
@@ -35,4 +38,9 @@
         android:name="com.norah.albaqami.daynightadhkar.fragment.AdhkarCollectionFragment"
         android:label="fragment_adhkar_collection"
         tools:layout="@layout/fragment_adhkar_collection" />
+    <fragment
+        android:id="@+id/sleepFragment"
+        android:name="com.norah.albaqami.daynightadhkar.fragment.SleepFragment"
+        android:label="fragment_sleep"
+        tools:layout="@layout/fragment_sleep" />
 </navigation>
